@@ -25,8 +25,33 @@ body {
 
 .card__wrapper {
     background-color: var(--gray-800);
+    color: var(--color-white);
     border-radius: 1rem;
     height: 47.5rem;
     width: 30rem;
-    
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }   
+
+.card__wrapper-info {
+    height: 40%;
+    text-align: center;
+}
+
+.card__wrapper-info > img {
+    width: 37.5%;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 999px;
+}
+
+.card__wrapper-links {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

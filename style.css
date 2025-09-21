@@ -58,10 +58,11 @@ body {
 .card__wrapper--text {
     font-weight: 100;
     margin-top: 1.5rem;
+    color: var(--color-white);
 }
 
 .card__wrapper-info > img {
-    width: 30%;
+    width: 28%;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
     border-radius: 999px;
